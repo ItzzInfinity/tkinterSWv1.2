@@ -1,12 +1,12 @@
-  SIS Report Downloader
+# SIS Report Downloader
   
-Overview
+## Overview
 
 The SIS Report Downloader is a Python script with a graphical user interface (GUI) built using Tkinter.
 It provides functionality to download reports from a specified website, organize them, and merge them into a consolidated file.
 The script utilizes Selenium for web automation and Pandas for data manipulation.
 
-Features
+## Features
 
 1.	Calendar Picker: Allows users to select a date using a calendar widget.
 2.	Store Name Buttons: Fifteen buttons corresponding to different stores initiate the download of reports specific to each store.
@@ -14,7 +14,7 @@ Features
 4.	Move Button: Organizes downloaded CSV files into a folder named with the current date.
 5.	Merge Button: Combines all downloaded CSV files into a single consolidated file.
    
-Prerequisites
+## Prerequisites
 
 •	Python 3.x
 •	Tkinter
@@ -22,7 +22,7 @@ Prerequisites
 •	Pandas
 •	ChromeDriver (ensure it is downloaded and its path is correctly specified in the script)
 
-Usage
+## Usage
 
 1.	Run the script using Python.
 2.	bashCopy code python tkinterSWv1.2.py
@@ -35,12 +35,16 @@ Usage
 9.	Monitor the console for progress messages and wait for completion alerts.
 10.	But if any login Fails then the separate file can be downloaded via <store name> buttons rather than running the whole loop again.
     
-Configuration
+## Configuration
 
 •	Ensure ChromeDriver is downloaded and its path is correctly specified in the script.
 •	Update SIS_ID and SIS_PASSWORD lists with valid credentials.
 
-Contributors
+## Contributors
 
 •	ItzzInfinity
 •	Prasad.anjan25@gmail.com
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](https://choosealicense.com/licenses/mit/) file for details
+
