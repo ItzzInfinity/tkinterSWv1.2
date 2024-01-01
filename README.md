@@ -42,7 +42,7 @@ The script utilizes Selenium for web automation and Pandas for data manipulation
 
 ## Contributors
 
-•	ItzzInfinity
+•	[ItzzInfinity](https://www.linkedin.com/in/anjan-prasad-itzzinfinity/)
 •	Prasad.anjan25@gmail.com
 
 ## License
